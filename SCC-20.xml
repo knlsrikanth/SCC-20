@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ManageSubscriptionsHelperClass</members>
+        <members>ManageSubscriptionsController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CaseEscalationAfterEventListener</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>ManageSubscriptions</members>
+        <name>ApexPage</name>
+    </types>
+     <types>
+        <members>SubscriptionEscalationTypes</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Subscription__c.Escalation_Sub_Types__c</members>
+        <members>Subscription__c.Escalation_Types__c</members>
+        <members>Subscription__c.My_Contacts__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>31.0</version>
+</Package>
